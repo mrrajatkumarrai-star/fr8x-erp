@@ -1,6 +1,13 @@
 {
-  "cleanUrls": true,
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
-  ]
+"version": 2,
+"routes": [
+{
+"src": "/",
+"dest": "/freight_erp_full.html"
+},
+{
+"src": "/(.*)",
+"dest": "/$1"
+}
+]
 }
